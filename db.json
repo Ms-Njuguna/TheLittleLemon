@@ -1,0 +1,357 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Chicken Shawarma Plate",
+      "description": "Grilled chicken slices served with hummus, garlic sauce, pita bread, and a side salad.",
+      "category": "main",
+      "price": 850,
+      "sides": ["Hummus", "Garlic Sauce", "Salad"],
+      "image": "https://bing.com/th?id=OSK.c84a975e11d3ca2557f05152f10954a0"
+    },
+    {
+      "id": 2,
+      "name": "Beef Kofta with Couscous",
+      "description": "Spiced beef kofta kebabs served with herbed couscous and grilled vegetables.",
+      "category": "main",
+      "price": 980,
+      "sides": ["Grilled Veggies", "Tzatziki"],
+      "image": "https://bing.com/th?id=OSK.d9cea71f4c3e9e394c7e949d77f8eecc"
+    },
+    {
+      "id": 3,
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+      "category": "main",
+      "price": 780,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.WYsEpZul-2Eqgg9TRIVlvAHaJQ?w=202&h=253&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 4,
+      "name": "Seafood Risotto",
+      "description": "Creamy risotto cooked with shrimp, squid, mussels, and a touch of white wine.",
+      "category": "main",
+      "price": 1200,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.90f99e4417df34b1b8d8f4b036f1d4a8?w=223&h=297&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 5,
+      "name": "Pasta alla Norma",
+      "description": "Eggplant, tomato sauce, ricotta salata and basil served with penne pasta.",
+      "category": "main",
+      "price": 890,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.Ppq5l4dPlitBpKpjtjDzIAHaLH?w=266&h=200&c=8&rs=1&o=6&dpr=2.3&pid=23.1"
+    },
+    {
+      "id": 6,
+      "name": "Greek Lemon Chicken",
+      "description": "Grilled chicken marinated in lemon and oregano, served with roasted potatoes.",
+      "category": "main",
+      "price": 950,
+      "sides": ["Roasted Potatoes", "Greek Salad"],
+      "image": "https://th.bing.com/th/id/OSK.1db5b046618e0756fced93317a71b82d?w=223&h=334&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 7,
+      "name": "Prosciutto & Arugula Pizza",
+      "description": "Italian cured ham, arugula, mozzarella and olive oil.",
+      "category": "main",
+      "price": 1050,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.zF4uu9_aO2Af3I05W1s-PAHaLH?w=202&h=303&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 8,
+      "name": "Spaghetti Carbonara",
+      "description": "Pasta with pancetta, egg, black pepper and parmesan cheese.",
+      "category": "main",
+      "price": 980,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.c8741fc3c4a4ca1f95a86b748a7843ce?w=223&h=167&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 9,
+      "name": "Stuffed Bell Peppers",
+      "description": "Bell peppers stuffed with rice, herbs, and minced meat.",
+      "category": "main",
+      "price": 780,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.9eda26251f4b7569a7ef51bec4d71d4c?w=223&h=223&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 10,
+      "name": "Tagliatelle Pesto",
+      "description": "Fresh pasta tossed in basil pesto and parmesan.",
+      "category": "main",
+      "price": 820,
+      "sides": [],
+      "image": "https://bing.com/th?id=OSK.8a9e208669a16afa7166b15964303ee4"
+    },
+    {
+      "id": 11,
+      "name": "Falafel Wrap",
+      "description": "Crispy falafels wrapped in warm pita with tahini, tomatoes, lettuce, and pickles.",
+      "category": "snack",
+      "price": 480,
+      "sides": ["Fries", "Pickles"],
+      "image": "https://th.bing.com/th/id/OSK.f9f9a461c214fc9a8a21443d2deff6c6?w=223&h=334&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 12,
+      "name": "Spanakopita",
+      "description": "Greek pastry with spinach and feta filling.",
+      "category": "snack",
+      "price": 420,
+      "sides": ["Tzatziki Dip"],
+      "image": "https://th.bing.com/th/id/OIP.Fm4qjERQHKwpSGzr9hh8NAHaE8?w=257&h=180&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 13,
+      "name": "Lamb Gyro",
+      "description": "Sliced lamb in pita bread with onions, tomatoes, and tzatziki sauce.",
+      "category": "snack",
+      "price": 620,
+      "sides": [],
+      "image": "https://foodhub.scene7.com/is/image/woolworthsltdprod/1803-teys-australia-lamb-gyros:Mobile-1300x1150"
+    },
+    {
+      "id": 15,
+      "name": "Stuffed Grape Leaves (Dolma)",
+      "description": "Grape leaves stuffed with herbed rice and lemon.",
+      "category": "snack",
+      "price": 400,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.7afaa7f325e019605cf2182207d2fe4a?w=194&h=194&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 16,
+      "name": "Baklava",
+      "description": "Sweet layers of filo pastry, nuts, and honey syrup.",
+      "category": "snack",
+      "price": 300,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.XKbM98hmCpJP3u5WCj188wHaF4?w=215&h=180&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 17,
+      "name": "Tiramisu",
+      "description": "Layered dessert with mascarpone, espresso, and cocoa.",
+      "category": "dessert",
+      "price": 450,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.P3gHeCwv6jkyay5PjGdzXwHaE6?w=299&h=198&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 18,
+      "name": "Olive Tapenade Crostini",
+      "description": "Toasted bread with olive tapenade and sun-dried tomatoes.",
+      "category": "snack",
+      "price": 320,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.0PsbcqkB2kQsyd2M3rkLCQHaFr?w=202&h=155&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 19,
+      "name": "Antipasto Platter",
+      "description": "Selection of cured meats, cheese, olives, and marinated veggies.",
+      "category": "snack",
+      "price": 950,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.12b59df5289688e765a95f416b43ac5b?w=223&h=223&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 20,
+      "name": "Gelato (2 scoops)",
+      "description": "Authentic Italian gelato, assorted flavors.",
+      "category": "dessert",
+      "price": 400,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.7F5NH5GqgAerFCY-MxYIHgHaHa?w=181&h=181&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 21,
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil and balsamic.",
+      "category": "side",
+      "price": 450,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.6abddabaea22f8dd67388b35c37a6205?w=223&h=334&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 22,
+      "name": "Garlic Parmesan Fries",
+      "description": "Crispy fries tossed in garlic and parmesan.",
+      "category": "side",
+      "price": 350,
+      "sides": [],
+      "image": "https://bing.com/th?id=OSK.58d5763d701a6560ad452908ef5082a2"
+    },
+    {
+      "id": 23,
+      "name": "Fattoush Salad",
+      "description": "Crispy pita, lettuce, radish, tomato and sumac dressing.",
+      "category": "side",
+      "price": 400,
+      "sides": [],
+      "image": "https://bing.com/th?id=OSK.ef2463b0fdccf3ea8f92f1fb8b981681"
+    },
+    {
+      "id": 24,
+      "name": "Lentil Soup",
+      "description": "Hearty Mediterranean lentil soup with cumin and lemon.",
+      "category": "soup",
+      "price": 350,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.xNvvMqBa1U8B7Bb9aLCNywHaE8?w=202&h=202&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 25,
+      "name": "Tuna Niçoise Salad",
+      "description": "Tuna, boiled eggs, olives, green beans, and potatoes in vinaigrette.",
+      "category": "side",
+      "price": 520,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.97e54cb4d82ae320caf545a774f1cae2?w=223&h=167&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 26,
+      "name": "Hummus Bowl",
+      "description": "Creamy hummus topped with olive oil, paprika and parsley served with pita.",
+      "category": "side",
+      "price": 400,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.R8p2NJ66RZ0ufSTa5t8R7QHaEK?w=314&h=180&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 27,
+      "name": "Roasted Eggplant Dip (Baba Ghanoush)",
+      "description": "Smoky roasted eggplant blended with tahini and lemon.",
+      "category": "side",
+      "price": 420,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.99dde21915267427fcd4d15613fecb12?w=223&h=167&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 28,
+      "name": "Chickpea Fries",
+      "description": "Polenta-style chickpea fries served with garlic aioli.",
+      "category": "side",
+      "price": 380,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.NHocZXX4hQ2ldX6epn1XMQHaJ4?w=202&h=269&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 29,
+      "name": "Espresso",
+      "description": "Classic strong Italian coffee shot.",
+      "category": "drink",
+      "price": 200,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.izQMNEk3FoXUOVIW4O1eQgHaE8?w=240&h=180&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 30,
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and foam.",
+      "category": "drink",
+      "price": 300,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.-6eTuSXf6AjcDElX3nBoDgHaFP?w=261&h=184&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 31,
+      "name": "Mint Lemonade",
+      "description": "Fresh lemonade blended with mint.",
+      "category": "drink",
+      "price": 250,
+      "sides": [],
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2023/04/Mint-Lemonade-10b-736x1104.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Iced Hibiscus Tea",
+      "description": "Chilled hibiscus flower tea with a hint of lime.",
+      "category": "drink",
+      "price": 280,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OSK.46e3c404847a6211666a527fc198dbe9?w=194&h=129&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 33,
+      "name": "San Pellegrino Sparkling Water",
+      "description": "Italian sparkling mineral water.",
+      "category": "drink",
+      "price": 350,
+      "sides": [],
+      "image": "https://www.bestwaywholesale.co.uk/img/products/1000/3/8002270018213.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Italian Soda - Blood Orange",
+      "description": "Refreshing soda with natural blood orange flavor.",
+      "category": "drink",
+      "price": 300,
+      "sides": [],
+      "image": "https://th.bing.com/th/id/OIP.diqN0hujnUEoJJr5uVJioAHaHa?w=185&h=185&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    },
+    {
+      "id": 35,
+      "name": "Pistachio Gelato (2 scoops)",
+      "description": "Creamy Italian-style ice cream with rich pistachio flavor.",
+      "category": "dessert",
+      "price": 400,
+      "sides": [],
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Ja_2j_w5M34_WHE138b-LgHaEP?cb=thvnextc1&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": 40,
+      "name": "Minestrone",
+      "description": "Italian vegetable soup with beans, pasta, and tomato base.",
+      "category": "soup",
+      "price": 400,
+      "sides": ["Garlic Bread"],
+      "image": "https://th.bing.com/th/id/OSK.HERO1eLyO1tCcH9IF8plbAUlzU4KlJrzakZMIcDScu0iU0o?w=312&h=200&c=7&rs=1&o=6&dpr=2.3&pid=SANGAM"
+    },
+    {
+      "id": 41,
+      "name": "Chicken Avgolemono",
+      "description": "Greek chicken soup made with lemon and egg for a creamy tangy taste.",
+      "category": "soup",
+      "price": 460,
+      "sides": ["Pita Bread"],
+      "image": "https://th.bing.com/th/id/OSK.821977e8091c2477ca342c8c16aaad15?w=223&h=223&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 42,
+      "name": "Tomato Basil Soup",
+      "description": "Smooth and creamy tomato soup with fresh basil and Italian herbs.",
+      "category": "soup",
+      "price": 390,
+      "sides": ["Grissini (breadsticks)"],
+      "image": "https://th.bing.com/th/id/OSK.dd8cec208dc4aa68b6974fef039a2522?w=223&h=297&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 43,
+      "name": "Seafood Bisque",
+      "description": "Rich and creamy Mediterranean-style soup with shrimp, crab, and a touch of spice.",
+      "category": "soup",
+      "price": 580,
+      "sides": ["Croutons"],
+      "image": "https://th.bing.com/th/id/OSK.65235b187f878d3ee63d8cddd4c738aa?w=223&h=223&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1"
+    },
+    {
+      "id": 44,
+      "name": "Fasolada",
+      "description": "Greek white bean soup with carrots, celery, and olive oil.",
+      "category": "soup",
+      "price": 420,
+      "sides": ["Crusty Bread"],
+      "image": "https://th.bing.com/th/id/OIP.i8Qy8mniXH5d-xx0JsH5XAHaFp?w=278&h=212&c=7&r=0&o=7&cb=thvnextc1&dpr=2.3&pid=1.7&rm=3"
+    }
+  ],
+  "orders": [],
+  "reservations": []
+}
