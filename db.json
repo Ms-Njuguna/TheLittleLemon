@@ -353,5 +353,58 @@
     }
   ],
   "orders": [],
-  "reservations": []
+  "reservations": [],
+  "specials": [
+    {
+      "id": 1,
+      "name": "Greek Salad",
+      "image": "./assets/greek salad.jpg",
+      "price": 1350,
+      "description": "The famous greek salad of crispy lettuce, peppers, olives and our Kenyan style feta cheese, garnished with crunchy garlic and rosemary croutons."
+    },
+    {
+      "id": 2,
+      "name": "Bruchetta",
+      "image": "./assets/bruchetta.svg",
+      "price": 620,
+      "description": "Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil, and a drizzle of balsamic glaze."
+    },
+    {
+      "id": 3,
+      "name": "Lemon Dessert",
+      "image": "./assets/lemon dessert.jpg",
+      "price": 535,
+      "description": "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "image": "./assets/customerImages/3ca412176fe4306326b04a78b51fa148c49f99c1",
+      "name": "Ethan Rivera",
+      "user_name": "@ethan_eats_everywhere",
+      "review": "Incredible salads and craft drinks. My new go-to weekend hangout spot!"
+    },
+    {
+      "id": 2,
+      "image": "./assets/customerImages/08c5772c481233a30a46aeca552132053604e2a8",
+      "name": "Lila Mendez",
+      "user_name": "@urbanfoodie_lila",
+      "review": "Fresh flavors, cozy vibe! The pasta special was absolutely divine. "
+    },
+    {
+      "id": 3,
+      "image": "./assets/customerImages/b64f988f077b50ffdab0afee9de4d701e4a9d5da",
+      "name": "Noah Kimani",
+      "user_name": "@noahknowsbites",
+      "review": "Great portions, bold spices! Perfect spot for a chill dinner with friends."
+    },
+    {
+      "id": 4,
+      "image": "./assets/customerImages/44dd2beb0c06094368ffbb7fa1843005cfdae174",
+      "name": "Keisha Oduor",
+      "user_name": "@wanderkeish",
+      "review": "Loved the friendly staff and the desserts were to die for! I'll be back."
+    }
+  ]
 }
