@@ -1,5 +1,9 @@
 console.log('Heyyyy Trish')
 
+document.addEventListener('DOMContentLoaded', () => {
+  fetchSpecials();
+  fetchTestimonials();
+})
 
 function fetchSpecials() {
   fetch('http://localhost:3000/specials')
@@ -11,7 +15,7 @@ function fetchSpecials() {
 })
 }
 
-fetchSpecials();
+
 
 function displaySpecials(special) {
   const specialsDisplay = document.querySelector('#specials-display');
@@ -48,7 +52,6 @@ function fetchTestimonials() {
   })
 }
 
-fetchTestimonials();
 
 
 function displayTestimonial(testimonial) {
@@ -74,6 +77,7 @@ function displayTestimonial(testimonial) {
   `;
   testimonialDisplay.appendChild(testimonialCard);
 }
+
 
 
 const modal = document.getElementById("myModal");
